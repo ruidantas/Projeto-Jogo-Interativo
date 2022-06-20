@@ -442,7 +442,8 @@ console.log(`O que você deseja fazer?`)
         ogro: while (true) {
             console.clear()
 
-           
+            ogro.mostraVidaOgro()
+            personagem.mostrarVida()
             console.log()
             console.log(`[1] - Atacar [2] - Defender`)
             let escolha = +prompt()
